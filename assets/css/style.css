@@ -47,13 +47,6 @@ nav.main-navbar .navbar-nav {
   letter-spacing: 0.1rem;
 }
 
-.fa-classic,
-.fa-regular,
-.fa-solid,
-.far,
-.fas {
-  font-size: 2rem;
-}
 @media (max-width: 1200px) {
   nav.main-navbar .navbar-nav {
     gap: 2rem;
