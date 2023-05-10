@@ -69,20 +69,33 @@ main p {
 }
 
 main .services {
-  color: red;
+  color: var(--color1);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   font-size: 1.5rem;
+  /* border: 1px solid red; */
+}
+
+main .services li:hover {
+  background-color: black;
+  color: white;
 }
 
 main .services li {
   list-style-type: none;
   display: flex;
-  gap: 0.75rem;
+  gap: 1rem;
+  /* border: 1px solid red; */
+  font-size: 1.5rem;
+  line-height: 3rem;
+  padding-left: 0.5rem;
 }
 
 main .services li i {
   font-size: 2rem;
+  /* color: rgb(44, 44, 124); */
+  /* border: 1px solid red; */
+  line-height: 3rem;
 }
 
 @media (max-width: 1400px) {
@@ -107,4 +120,21 @@ main .services li i {
   main p {
     padding: 0 0.5rem;
   }
+}
+
+@media (max-width: 768px) {
+  main .services {
+    display: block;
+  }
+}
+
+@media (max-width: 1200px) {
+  main .services li {
+    font-size: 20px;
+    line-height: 2.5rem;
+  }
+}
+
+footer p {
+  font-size: 1.3rem;
 }
