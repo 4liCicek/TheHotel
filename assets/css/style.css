@@ -73,7 +73,6 @@ main .services {
   display: flex;
   justify-content: space-evenly;
   font-size: 1.5rem;
-  /* border: 1px solid red; */
 }
 
 main .services li:hover {
@@ -85,16 +84,13 @@ main .services li {
   list-style-type: none;
   display: flex;
   gap: 1rem;
-  /* border: 1px solid red; */
   font-size: 1.5rem;
   line-height: 3rem;
-  padding-left: 0.5rem;
+  padding: 0 0.5rem;
 }
 
 main .services li i {
   font-size: 2rem;
-  /* color: rgb(44, 44, 124); */
-  /* border: 1px solid red; */
   line-height: 3rem;
 }
 
@@ -137,4 +133,19 @@ main .services li i {
 
 footer p {
   font-size: 1.3rem;
+}
+
+main .myrooms {
+  padding-top: 3.5rem;
+  background-color: rgb(250, 247, 229);
+  display: flex;
+  border: 1px solid red;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .myservices {
+  padding-top: 3.5rem;
+  background-color: rgb(250, 247, 229);
 }
