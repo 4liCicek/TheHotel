@@ -135,17 +135,17 @@ footer p {
   font-size: 1.3rem;
 }
 
-main .myrooms {
-  padding-top: 3.5rem;
+main .myrooms,
+main .myservices,
+footer .iletisim {
+  padding: 1.5rem;
   background-color: rgb(250, 247, 229);
-  display: flex;
-  border: 1px solid red;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
 }
 
-main .myservices {
-  padding-top: 3.5rem;
-  background-color: rgb(250, 247, 229);
+@media (max-width: 768px) {
+  main .myservices,
+  main .myrooms,
+  footer .iletisim {
+    padding: 0.8rem;
+  }
 }
